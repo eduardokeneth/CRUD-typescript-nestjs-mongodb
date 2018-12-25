@@ -22,7 +22,7 @@ Rode npm/yarn run start:dev para rodar a aplicação
 yarn run start:dev
 ```
 
-### Para substituir as chaves do MongoLab
+### Substituir as chaves do MongoLab
 
 ```typescript
 import { Module } from '@nestjs/common';
