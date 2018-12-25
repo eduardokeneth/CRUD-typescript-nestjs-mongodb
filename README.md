@@ -22,7 +22,7 @@ Rode npm/yarn run start:dev para rodar a aplicação
 yarn run start:dev
 ```
 
-### Substituir as chaves do MongoLab
+### Para substituir as chaves do MongoLab
 
 ```typescript
 import { Module } from '@nestjs/common';
@@ -43,7 +43,7 @@ export class AppModule {}
   MongooseModule.forRoot('mongodb://<nomedeusuario>:<senha>@ds113853.mlab.com:13853/crud-project'),
 ```
 
-## Controllers com injeção de dependência
+### Controllers com injeção de dependência
 
 ```typescript
  @Controller('items')
